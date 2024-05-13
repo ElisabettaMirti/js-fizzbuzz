@@ -1,9 +1,9 @@
 
-let userName = "";
+let userNumber = "";
 
 for (let i = 0; i <= 100; i = i + 1){
 
-    let userNumber = parseInt(prompt("Type a number from 1 to 100", 10));
+    let userNumber = parseInt(prompt("Type a number from 1 to 100"));
 
     if ((userNumber % 3 === 0) && (userName % 5 == 0)) {
         console.log("FizzBuzz");
